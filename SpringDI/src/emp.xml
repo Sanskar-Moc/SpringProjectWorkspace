@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<context:annotation-config></context:annotation-config>
+	<context:component-scan base-package="com.wileyedge"></context:component-scan>
+
+
+	<!-- <bean id="a1" class="com.wileyedge.Address" > -->
+	<!-- <property name="city" value="Jerusalem"></property> -->
+	<!-- <property name="country" value="Israel"></property> -->
+	<!-- <property name="zip" value="332211"></property> -->
+
+	<!-- <constructor-arg index="0" value="Meknowdontcity"></constructor-arg> -->
+	<!-- <constructor-arg index ="1" value="Menodontcountry"></constructor-arg> -->
+	<!-- <constructor-arg value="331220"></constructor-arg> -->
+	<!-- </bean> -->
+	<!-- <bean id="a2" class="com.wileyedge.Address" > -->
+	<!-- <property name="city" value="Nazareth"></property> -->
+	<!-- <property name="country" value="Israel"></property> -->
+	<!-- <property name="zip" value="332211"></property> -->
+	<!-- </bean> -->
+	<!-- <bean id="e1" class="com.wileyedge.Employee" scope="prototype" init-method="myInit" 
+		destroy-method="myDestroy"> -->
+	<!-- <property name="id" value="10"></property> -->
+	<!-- <property name="fname" value=""></property> -->
+	<!-- <property name="lname" value="Christ"></property> -->
+	<!-- <property name="addr" ref="a2"></property> -->
+	<!-- </bean> -->
+	<!-- <bean id="e2" class="com.wileyedge.Employee" scope="prototype" init-method="myInit" 
+		destroy-method="myDestroy" > -->
+	<!-- <bean id="e2" class="com.wileyedge.Employee" scope="prototype" 
+		init-method="myInit" destroy-method="myDestroy" autowire="byType"> -->
+
+	<!-- <property name="id" value="15"></property> -->
+	<!-- <property name="fname" value=""></property> -->
+	<!-- <property name="lname" value="John"></property> -->
+	<!-- <constructor-arg ref="a1"></constructor-arg> -->
+
+	<!-- </bean> -->
+
+</beans>
